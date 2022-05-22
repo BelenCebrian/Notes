@@ -35,9 +35,10 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-  font:
-    text: Roboto #Gentium Basic
-    code: Roboto Mono #Fira Code
+        
+    font:
+      text: Roboto #Gentium Basic
+      code: Roboto Mono #Fira Code
 
 # Extensions
 markdown_extensions:
