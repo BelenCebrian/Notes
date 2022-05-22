@@ -2,11 +2,17 @@
 # mkdocs-material: https://squidfunk.github.io/mkdocs-material/
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
+# Site information
 site_name: Belén Cebrián | Notas públicas
 site_author: Belén Cebrián
+site_url: https://github.com/BelenCebrian/Notes
+
 site_description: Mis notas públicas, creadas con Obsidian y almacenadas en GitHub / My public notes, created with Obsidian and hosted on GitHub 
+
+# Repository information
 repo_url: https://belencebrian.github.io/Notes/
 
+# Configuration
 theme:
     name: 'material'
     locale: es
@@ -29,6 +35,9 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  font:
+    text: Roboto #Gentium Basic
+    code: Roboto Mono #Fira Code
 
 # Extensions
 markdown_extensions:
@@ -52,6 +61,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# Plugins
 plugins:
   - search
   - roamlinks 
