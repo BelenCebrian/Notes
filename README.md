@@ -4,6 +4,8 @@ Repositorio de notas creadas en Obsidian y compartidas de forma pública en http
 
 - Repositorio original: [jobind / obsidian-publish-mkdocs](https://github.com/jobindj/obsidian-publish-mkdocs)
 
+>⚠ **Nota:** la configuración y notas almacenadas se actualizan cuando terminan todas las **Acciones** del **Flujo de trabajo**, ver estado en (📋 [Actions](https://github.com/BelenCebrian/Notes/actions))
+
 
 ##  Despliegue en local
 - Original: https://github.com/Jackiexiao/foam-mkdocs-template#deploy-locally
