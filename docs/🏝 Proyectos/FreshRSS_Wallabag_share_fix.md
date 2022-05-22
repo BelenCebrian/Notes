@@ -1,5 +1,5 @@
 ---
-title: FreshRSS "compartir" arreglo
+title: FreshRSS & Wallabag arreglo para botón "compartir"
 tags: sobre/dev sobre/docker sobre/selfhosted sobre/soluciones
 ---
 
@@ -14,14 +14,21 @@ tags: sobre/dev sobre/docker sobre/selfhosted sobre/soluciones
 
 [^FreshRSS]: Contenedor Docker (`ikaruswill/wallabag:2.4.3`) corriendo en una RPi4 con Raspberry Pi OS <small>(64-bit, Debian 11 Bullseye)</small>
 
-# Problema 
 
+# Descripción
 
 Integración FreshRSS & Wallabag (botón compartir):
 
-- Configuración por defecto que no funciona:
+![](Imags/FreshRSS_Wallabag_compartir_arreglo/boton_compartir.png)
 
-	![[Pasted image 20220412161430.png]]
+Al pinchar el botón de _"Compartir"_ y seleccionar la opción _"Wallabag"_, si la integración es la correcta, la noticia mostrada en **FreshRSS** se archiva automáticamente en **Wallabag** sin más interacción
+
+
+# Problema 
+
+- Configuración por defecto que no funciona:   `wallabag://wallabag@http://192.168.1.232:8084/`
+
+	![[no_funciona.png]]
 
 - Genera la URL:
 	
@@ -29,7 +36,7 @@ Integración FreshRSS & Wallabag (botón compartir):
 	wallabag://wallabag@http://192.168.1.232:8084//bookmarklet?url=https%3A%2F%2Fwww.microsiervos.com%2Farchivo%2Fenergia%2Fexplorador-datos-energia-electricidad-2022.html
 	```
 
-![[Pasted image 20220413102232.png]]
+![[problema.png]]
 
 
 # Añadir URL desde navegador
@@ -48,9 +55,10 @@ javascript:var url=location.href||url;var wllbg=window.location.replace('https:/
 
 # Solución 
 
-- Configuración que funciona:
+- Configuración que funciona:  `http://192.168.1.232:8084` 
+  -  ⚠ **IMPORTANTE**: debe ir sin la barra `/` al final
 
-	![[Pasted image 20220412164310.png]]
+	![[si_funciona.png]]
 
 - Genera la URL correcta:
 

@@ -1,5 +1,5 @@
 ---
-titulo: Eink Photoframe Slideshow
+title: Eink Photoframe Slideshow
 tags: estado/semilla sobre/eink sobre/dev
 ---
 
@@ -20,6 +20,7 @@ tags: estado/semilla sobre/eink sobre/dev
 
 1. Demo Mode
 
+<br>
 
 # Android
 
