@@ -5,12 +5,12 @@
 # Site information
 site_name: Belén Cebrián | Notas públicas
 site_author: Belén Cebrián
-site_url: https://github.com/BelenCebrian/Notes
+site_url: https://belencebrian.github.io/Notes/
 
 site_description: Mis notas públicas, creadas con Obsidian y almacenadas en GitHub / My public notes, created with Obsidian and hosted on GitHub 
 
 # Repository information
-repo_url: https://belencebrian.github.io/Notes/
+repo_url: https://github.com/BelenCebrian/Notes
 
 # Configuration
 theme:
