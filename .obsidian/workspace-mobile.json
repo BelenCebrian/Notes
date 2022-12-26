@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "bb973be7b4bd1e44",
+    "type": "split",
+    "children": [
+      {
+        "id": "e097dc96b20b18cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe585966438c8d5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prueba desde Obsidian Mobile.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "04fb6258da7144b4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7b24c8aab98b6728",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3ff3dca77ae956fd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f2fad8f6d7ef24f7",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "c7d7b1b026ba3c3c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e3b80e2ad13cfadf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "04df0ffc22555247",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Prueba desde Obsidian Mobile.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "538dbcae33794730",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Prueba desde Obsidian Mobile.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5955eb05eaa3c7ac",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Prueba desde Obsidian Mobile.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "fe585966438c8d5b",
+  "lastOpenFiles": [
+    "docs/🏝 Proyectos/Eink_photoframe_slideshow.md",
+    "Prueba desde Obsidian Mobile.md",
+    "docs/Imags/mkdocs/2021-11-22-22-54-02.png",
+    "docs/index.md",
+    "docs/Imags/mkdocs/2021-11-22-22-49-26.png",
+    "docs/Imags/FreshRSS_Wallabag_compartir_arreglo/no_funciona.png"
+  ]
+}
