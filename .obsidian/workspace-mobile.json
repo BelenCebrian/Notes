@@ -11,10 +11,11 @@
             "id": "fe585966438c8d5b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "staged": false,
-                "file": "docs/Imags/mkdocs/2021-11-22-22-49-26.png"
+                "file": "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -110,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md"
+          }
         }
       }
     ],
@@ -118,12 +123,11 @@
   },
   "active": "fe585966438c8d5b",
   "lastOpenFiles": [
-    "docs/Imags/mkdocs/2021-11-22-22-49-26.png",
-    "docs/Índice.md",
-    "README.md",
-    "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md",
     "docs/🏝 Proyectos/Eink_photoframe_slideshow.md",
+    "docs/🏝 Proyectos/Prueba desde Obsidian Mobile.md",
     "docs/Imags/mkdocs/2021-11-22-22-54-02.png",
+    "docs/index.md",
+    "docs/Imags/mkdocs/2021-11-22-22-49-26.png",
     "docs/Imags/FreshRSS_Wallabag_compartir_arreglo/no_funciona.png"
   ]
 }
