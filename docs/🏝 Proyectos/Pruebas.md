@@ -6,6 +6,7 @@ Obsidian app en Android con plugin de _Obsidian Git_ (**Hisense A9** )
 😃
 
 <br>
+
 ## Multimedia
 
 <br>
