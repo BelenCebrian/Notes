@@ -8,6 +8,8 @@ Obsidian app en Android con plugin de _Obsidian Git_ (**Hisense A9** )
 <br>
 ## Multimedia
 
+<br>
+
 ![Facepalm GIF](https://media3.giphy.com/media/TJawtKM6OCKkvwCIqX/giphy.gif)
 
 
