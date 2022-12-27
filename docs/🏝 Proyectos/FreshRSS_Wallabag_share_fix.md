@@ -19,7 +19,7 @@ tags: sobre/dev sobre/docker sobre/selfhosted sobre/soluciones
 
 Integración FreshRSS & Wallabag (botón compartir):
 
-![](Imags/FreshRSS_Wallabag_compartir_arreglo/boton_compartir.png)
+![](Resources/FreshRSS_Wallabag_compartir_arreglo/boton_compartir.png)
 
 Al pinchar el botón de _"Compartir"_ y seleccionar la opción _"Wallabag"_, si la integración es la correcta, la noticia mostrada en **FreshRSS** se archiva automáticamente en **Wallabag** sin más interacción
 
