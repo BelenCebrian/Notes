@@ -42,27 +42,59 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - footnotes
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
-  - pymdownx.tabbed 
+
+# neoteori
+# https://www.neoteroi.dev/mkdocs-plugins/
+  - neoteroi.cards
+  - neoteroi.timeline
+
+# pymdownx
+# https://facelessuser.github.io/pymdown-extensions/
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.details
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.highlight:
       auto_title: true
       linenums: true
   - pymdownx.inlinehilite
-#   - pymdownx.arithmatex
-#   - pymdownx.superfences
-#   - pymdownx.details
-#   - pymdownx.magiclink
-#   - pymdownx.tasklist:
-#       custom_checkbox: true
-#  - pymdownx.emoji:
-#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
   - toc:
       permalink: true
 
 # Plugins
+
 plugins:
   - search
   - roamlinks 
+  - mermaid2
+  - pdf-export
+  - git-revision-date-localized
+
+# Extra
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js 
