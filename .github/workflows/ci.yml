@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - main
+      - updateTemplate
 #    paths: [ docs/**.md ] # Only trigger workflow when there are changes on docs
 # https://github.com/ActionsHackathon21/build-documentations/blob/main/mkdocs.yml
 
