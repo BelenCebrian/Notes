@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - main
+      - updateTemplate
 #    paths: [ docs/**.md ] # Only trigger workflow when there are changes on docs
 # https://github.com/ActionsHackathon21/build-documentations/blob/main/mkdocs.yml
 
@@ -20,4 +21,5 @@ jobs:
       - run: pip install mkdocs-mermaid2-plugin
       - run: pip install mkdocs-pdf-export-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install neoteroi-mkdocs
       - run: mkdocs gh-deploy --force
