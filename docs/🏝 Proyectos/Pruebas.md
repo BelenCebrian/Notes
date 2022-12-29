@@ -21,7 +21,8 @@ Obsidian app en Android con plugin de _Obsidian Git_ (**Hisense A9** )
 	```
 
 - **Mermaid** grafo:
-```mermaid
+
+``` mermaid
 graph TD;
     A-->B;
     A-->C;
@@ -29,7 +30,35 @@ graph TD;
     C-->D;
 ```
 
+- **Ejemplo de MkDocs Material**: []()
 
+```` markdown title="Flow chart"
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+````
+
+<div class="result" markdown>
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+</div>
+
+<br>
+
+🐍📖
 
 - Python 3 code:
 ```python

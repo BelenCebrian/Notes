@@ -70,8 +70,16 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.smartsymbols
   - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        # Mermaid diagrams
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -87,6 +95,11 @@ plugins:
   - mermaid2
   - pdf-export
   - git-revision-date-localized
+      locale: es
+      type: datetime
+      timezone: Europe/Madrid
+      fallback_to_build_date: false
+      enable_creation_date: true
 
 # Extra
 
