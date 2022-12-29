@@ -30,7 +30,7 @@ graph TD;
     C-->D;
 ```
 
-- **Ejemplo de MkDocs Material**: []()
+- **Ejemplo de MkDocs Material**: Flowcharts
 
 ```` markdown title="Flow chart"
 ``` mermaid
