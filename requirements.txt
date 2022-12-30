@@ -1,0 +1,2 @@
+Markdown==3.3.7 # Temporarily pin version <3.4, see https://github.com/mkdocs/mkdocs/pull/2893
+pymdown-extensions==9.10a2
