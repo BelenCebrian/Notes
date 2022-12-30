@@ -1,5 +1,8 @@
 .vscode/settings.json
-.obsidian/
 .trash/
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+
+!/.obsidian/
+**/.obsidian/*
+!**/.obsidian/plugins/obsidian-minimal-settings
+!**/.obsidian/appearance.json
+!**/.obsidian/snippets/
