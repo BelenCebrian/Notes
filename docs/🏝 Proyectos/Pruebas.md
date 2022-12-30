@@ -1,6 +1,6 @@
 Obsidian app en Android con plugin de _Obsidian Git_ (**Hisense A9** )
 
-- Problemas con _Obsidian Git_ a la hora de sincronizar archivos, en ==GitHub:== [Issue #14: _conflict files_](https://github.com/denolehov/obsidian-git/issues/114)
+- Problemas con _Obsidian Git_ a la hora de sincronizar archivos, en ==GitHub:== [Issue #14: _conflict files_](https://github.com/denolehov/obsidian-git/issues/114)   
      >Pues eso, que hay conflictos al usar varios dispositivos a la vez :/
 
 😃
